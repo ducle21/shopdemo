@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+section .product .item > img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+section .product .item{
+    margin-top: 3%;
+
+}
+
+.item-name{
+    text-decoration: none;
+}
+section .product .item:hover {
+    border: rgb(186, 218, 233) 1px solid;
+    box-shadow: 0px 1px 10px 1px rgb(3, 56, 59);
+    transition: 0.5s all ease;
+}
+
+section .product {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+
+
+
+.img-title {
+    color: rgb(23, 26, 5);
+    font-weight: 400px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.img-title .item-monney{
+    color: crimson;
+}
+
+.checkmark {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox__input{
+    display: none;
+}
+
+.checkbox__box{
+    width: 1.5em;
+    height: 1.5em;
+    border: 2px solid #771a1a;
+    border-radius: 3px;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+.checkbox__box::after{
+    content: "\2714";
+    color:rgb(255, 255, 255);
+    display: none;
+    position: absolute;
+}
+
+.checkbox__input:checked + .checkbox__box{
+    background-color: rgb(219, 210, 155);
+    border-color: rgb(12, 12, 92) ;
+}
+
+.checkbox__input:checked + .checkbox__box::after{
+    display: block;
+}
+
+.custon-selectbox > div {
+    width: 40%;
+    left: 20%;
+}
+
+.custon-selectbox > div  label,
+.custon-selectbox > div  > #select {
+    display: inline-block;
+}
+
+.product-link{
+    text-decoration: none;
+}
+
+.text-check{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 700;
+}

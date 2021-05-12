@@ -1,0 +1,113 @@
+.carousel{
+    width: 80%;
+
+}
+
+.carousel-item > img{
+    width: 100%;
+}
+
+.box-home{
+    background-color : rgba(76, 7, 85, 0.5);
+    border-radius: 20px;
+    width: 100%;
+}
+
+.box-item{
+    padding-top: 10px;
+}
+
+.box-item>img{
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+.rank-item{
+    background-color: rgba(0, 0, 0,.6);
+    top : 10px;
+    right : 65px;
+    position: absolute;
+    padding: 10px;
+    color: rgb(197, 161, 161);
+    font-weight: 600;
+
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 52% 84%, 2% 100%);
+}
+
+.box-item:hover > img ,
+.box-item:hover > .rank-item {
+    transform: translateY(-5px);
+}
+
+.logo{
+    overflow: hidden;    
+    padding: 0;
+    border-style: inset;
+    border-color: aquamarine;
+    border-width: 5px;
+}
+
+.logo > img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo:hover > img{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.item-hoat-dong img{
+    width: 90%;
+    height: 200px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px 5px rgb(3, 56, 59);
+    border: 4px solid aqua;
+    position: relative;
+}
+
+.hoat-dong{
+    padding :2% 5%;
+
+}
+
+.hoat-dong{
+    margin-left: 0%;
+}
+
+.hoat-dong-text{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    color: rgb(104, 230, 125);
+    transform: translate(-70%,100%);
+    opacity: 0;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-hoat-dong:hover > img{
+    filter: blur(4px) brightness(35%);
+    transition: all 0.5s;
+}
+
+.item-hoat-dong:hover > .hoat-dong-text{
+    opacity: 1;
+    transform: translate(-70%,-50%);
+    opacity: 1;
+    transition: all .5s;
+}
+
+.hoat-dong-title{
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+
+
+
+
+
+
+

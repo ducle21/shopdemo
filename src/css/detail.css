@@ -1,0 +1,102 @@
+section{
+
+    padding : 1% 2%;
+}
+
+
+.detail {
+    text-align: left;
+
+}
+
+.detail-text{
+    color: crimson;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.item{
+    cursor: pointer;
+}
+
+
+.detail-caption{
+    text-align: center;
+    font-weight: 400;
+}
+
+.monney-text{
+    color: red;
+}
+
+.line{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 2px;
+    background-color: red;
+}
+
+.btn-thugon,.btn-them{
+    margin-top: 2%;
+    margin-left: 45%;
+}
+
+.img-detail{
+    margin: 2% 0%;
+    border-radius: 20px;
+}
+
+.infor-text,.infor-text-2{
+    text-align: justify;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-thongso{
+    border-bottom: 1px solid rgba(0, 0, 0,0.4);
+    margin: 4%;
+    padding-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+
+.image-product > img{
+    width : 90%;
+    margin-left : 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+.image-product:hover > img{
+    transform: scaleX(1.03);
+    transition: all .2s ease;
+}
+
+
+.image-product{
+    padding : 0px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.product-extra:hover > img{
+    transform: translateY(-10px);
+    transition: all ease .2s;
+}
+
+.item-plus::before{
+    display: block;
+    background-color : red;
+    height:2px;
+    width :100%;
+    content: " ";
+    margin : 10px;
+}
+
+.img-detail{
+    width : 100%;
+}
+
